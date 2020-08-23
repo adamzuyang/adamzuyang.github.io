@@ -1,10 +1,12 @@
 ---
 title: Why Blog?
-author: Barnett Yang
 tags: [Writing]
+author: Barnett Yang
+date: 2020-08-23 11:16:00
 ---
-For most people, creating a personal blog from scratch can take quite a bit of effort. So why did I decide to start blogging?
 
+For most people, creating a personal blog from scratch can take quite a bit of effort. So, as a freshman college student coming to grips with the professional scene, why did I decide to start blogging? 
+<!-- more -->
 The idea of blogging first came into my mind the summer before I would begin my college education. This was also when the COVID-19 pandemic was (and, I suppose, it still is) in its zenith, and with nothing to do, I began thinking about ways to fill my time, and one idea instantly came into my mind: writing.
 
 However, I wanted to find ways to incorporate writing into what I thought would be my two main scholarly pursuits in college: mathematics and computer science--as of 2020-2024, I am currently pursuing a double major in Applied Mathematics with a cluster in Data Science and Computer Science. I also wanted to be able to use this opportunity to develop my woefully inadequate coding abilities. So, the idea of writing a blog and integrating it into a personal website was instantly attractive. I would write about anything that would pop into my mind, along with ideas in computer science and mathematics that I thought were worth mentioning and sharing. The personal website, I hoped, would be a useful tool in the future and allow me to showcase my resume and computer science projects.
