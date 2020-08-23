@@ -1,0 +1,48 @@
+
+<!-- Blog Header: title and subtitle -->
+<%- partial('_partial/header') %>
+<!-- Main Content -->
+<div class="container" id="scroll-here"></div>
+<!-- My About Section -->
+<%- partial('_partial/about') %>
+<br>
+<br>
+<br>
+<!-- Project Showcase -->
+<%- partial('_partial/projects') %>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container"><hr></div>
+<br>
+<br>
+<br>
+<!-- Links to other resources -->
+<%- partial('_partial/links') %>
+<br>
+<br>
+<br>
+<div class="container"><hr></div>
+<!-- Index Blog Section -->
+<div class="container module">
+    <div class="module-inset">
+        <!-- Blog excerpts -->
+        <div class="col">
+            <%
+                var title = '';
+                if (page.category) title = page.category;
+                if (page.tag) title = page.tag;
+                if (page.archive){
+                    if (page.year) title = page.year + (page.month ? '/' + page.month : '');
+                    else title = "Archives";
+                }
+            %>
+            <% page.posts.each(function(item){ %>
+            <%- partial('_partial/article-excerpt', {item: item}) %>
+            <% }); %>
+            <%- partial('_partial/pagination') %>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,19 @@
+
+
+<nav class="navbar navbar-fixed-top navbar-default" role="navigation" style="background-color:white" id="Header">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/" style="color:royalblue; font-weight:bold">Barnett Yang</a>
+      <button type="button" style="background-color:white" class="navbar-toggle collapsed navbar-default" data-toggle="collapse" data-target="#hamburger" aria-expanded="false" aria-controls="hamburger">
+        <span class="glyphicon glyphicon-menu-hamburger" style="color:royalblue"></span>
+      </button>
+    </div>
+    <div id="hamburger" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <% for (var i in theme.menu){ %>
+          <li><a href="<%- url_for(theme.menu[i]) %>" ><%= i %></a></li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</nav>

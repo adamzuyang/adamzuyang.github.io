@@ -1,0 +1,38 @@
+
+<div class="blue-header">
+    <div class="blue-header-text">
+        <div class="blue-header-title">
+            My Blog
+        </div>
+        <div>
+            Welcome to my blog archive. Here you can find links to blog tags and excerpts.
+        </div>
+    </div>
+</div>
+<div class="buffer10"></div>
+<div class="buffer10"></div>
+<div class="container">
+    <div class=col>
+        <% if (theme.widgets.tags && site.tags.length){ %>
+            <div class="module">
+                    <div class="module-inset">
+                    <h4 style="color: royalblue; font-weight:bold">Tags</h4>
+                    <p>
+                        <% site.tags.sort('name').each(function(item){ %>
+                            <a href="<%- config.root %><%- item.path %>" style="font-size: <%- Math.min(item.posts.length * 2 + 13, 30) %>px"><%= item.name %></a>
+                        <% }); %>
+                    </p>
+                </div>
+            </div>
+        <% } %>
+    </div>
+    <div class="buffer5"></div>
+    <div class="buffer10"></div>
+    <div class="container"><hr></div>
+    <div class="col blog-main">
+        <% page.posts.each(function(item){ %>
+            <%- partial('_partial/article-excerpt', {item: item}) %>
+        <% }); %>
+        <%- partial('_partial/pagination') %>
+    </div>
+</div>

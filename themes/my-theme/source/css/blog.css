@@ -1,0 +1,346 @@
+/*
+ * Globals
+ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: royalblue;
+}
+
+a:hover {
+    color: rgb(110, 137, 218);
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+hr, .hr {
+    color: royalblue;
+    border-top: 2px solid;
+}
+
+/*
+ * Override Bootstrap
+ */
+
+.navbar-default{
+    border:none;
+}
+#Header a {
+    color: royalblue;
+}
+#Header a:hover {
+    color: rgb(80, 116, 223);
+}
+
+/*
+ * Index Header CSS Attributes
+ */
+
+.hero-image {
+    background-image: url("images/profile2.jpg");
+    background-color: #cccccc;
+    height: 1000px;
+    background-position: 50% 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.buffer10 {
+    height:10px;
+}
+.buffer5 {
+    height:5px;
+}
+.title {
+    color:white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.title:hover {
+    color:rgb(236, 236, 236);
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 79%;
+    left: 70%;
+    transform: translate(-50%, -70%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 26px;
+    padding: 10px;
+}
+
+#scroll-here {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+#scroll-projects {
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+/*
+ * Headers for other pages
+ */
+
+.blue-header {
+    background-color: royalblue;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+}
+.blue-header-title {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.blue-header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.blue-header-index {
+    background-color: royalblue;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+    height: 480px;
+    background-size: cover;
+}
+
+
+/*
+ * Blog tags and categories
+ */
+
+.blog-tags-container, .blog-categories-container {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.blog-tags-container span.glyphicon, .blog-categories-container span.glyphicon {
+    margin-right: 10px;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.module {
+    padding: 10px;
+}
+.module-inset {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.module-inset p:last-child,
+.module-inset ul:last-child,
+.module-inset ol:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+    margin-bottom: 60px;
+    text-align: left;
+}
+.pager > li > a {
+    width: 140px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: normal;
+}
+.blog-post-meta {
+    margin-bottom: 10px;
+    color: #999;
+}
+
+/*
+ * Archive
+ */
+
+.blog-archive-title {
+    margin-bottom: 50px;
+}
+
+.blog-post-title-archive {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+    padding: 40px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+    margin-bottom: 0;
+}
+
+/*
+ * Resume
+ */
+
+.resume-module {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-module h1, .h1, h2, .h2, h3, .h3 {
+    color: royalblue;
+    font-weight: bold;
+}
+.resume-submodule {
+    margin-left: 20px;
+    padding: 5px;
+}
+.resume-submodule .h1, .h2, .h3{
+    color:rgb(86, 120, 221);
+    font-weight: bold;
+    margin-bottom: 2;
+}
+.resume-submodule h4, .h4 {
+    margin-bottom: 3;
+}
+.resume-submodule p, .p, li, .li {
+    color: black;
+}
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
+/*
+ * Projects
+ */
+
+.project1 {
+    background-image: url("images/scheme.png");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.project2 {
+    background-image: url("images/antsvsbees.png");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.project3 {
+    background-image: url("images/website.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.project-text {
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 18px;
+}
+.project-inner-wrapper {
+    padding: 5px;
+}
+.project-text-title {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+}
+.project-text-title:hover {
+    color: rgb(228, 228, 228);
+}

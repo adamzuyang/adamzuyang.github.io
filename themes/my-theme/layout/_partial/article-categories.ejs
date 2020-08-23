@@ -1,0 +1,12 @@
+<% if (item.categories && item.categories.length){ %>
+<%
+    var categories = [];
+    item.categories.forEach(function(category){
+        categories.push('<a href="' + config.root + category.path + '" style="font-size:15px">' + category.name + '</a>');
+    });
+%>
+<div class="blog-categories-container">
+    <span class="glyphicon glyphicon-folder-open" style="font-size:15px"></span>
+    <%- categories.join(' / ') %>
+</div>
+<% } %>
