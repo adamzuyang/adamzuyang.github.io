@@ -8,7 +8,6 @@ body {
 }
 
 a {
-    font-family: 'Open Sans', sans-serif;
     color: royalblue;
 }
 
@@ -53,6 +52,16 @@ hr, .hr {
     color: rgb(80, 116, 223);
 }
 
+.fa:hover {
+    color:rgb(110, 137, 218);
+}
+.btn-social-icon:hover {
+    color:rgb(110, 137, 218);
+}
+.btn-social-icon:active {
+    border:none;
+    outline: none;
+}
 /*
  * Index Header CSS Attributes
  */
@@ -60,17 +69,21 @@ hr, .hr {
 .hero-image {
     background-image: url("images/profile2.jpg");
     background-color: #cccccc;
-    height: 1000px;
+    height: 100vh;
+    min-height: 600px;
     background-position: 50% 55%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-.buffer10 {
-    height:10px;
+.buffer1 {
+    height:1vh;
 }
-.buffer5 {
-    height:5px;
+.buffer2 {
+    height:2vh;
+}
+.buffer3 {
+    height: 3vh;
 }
 .title {
     color:white;
@@ -109,7 +122,8 @@ hr, .hr {
 
 .blue-header {
     background-color: royalblue;
-    height: 400px;
+    height: 40vh;
+    min-height: 300px;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -132,7 +146,8 @@ hr, .hr {
 }
 .blue-header-index {
     background-color: royalblue;
-    height: 500px;
+    height: 50vh;
+    min-height: 300px;
     background-size: cover;
     position: relative;
     width: 100%;
@@ -171,11 +186,12 @@ hr, .hr {
 
 /* Sidebar modules for boxing content */
 .module {
-    padding: 10px;
+    height: relative;
 }
 .module-inset {
     margin-top: 10px;
     border-radius: 10px;
+    margin-bottom: 5vh;
 }
 .module-inset p:last-child,
 .module-inset ul:last-child,
@@ -203,27 +219,24 @@ hr, .hr {
 
 .blog-post {
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 .blog-post-title {
     margin-bottom: 5px;
     font-size: 35px;
     font-weight: normal;
-    color:royalblue
+    color:royalblue;
+    text-align:center;
 }
 .blog-post-meta {
-    margin-bottom: 10px;
     color: #999;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 /*
  * Archive
  */
 
-.blog-archive-title {
-    margin-bottom: 50px;
-}
 
 .blog-post-title-archive {
     margin-bottom: 5px;
