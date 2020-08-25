@@ -184,9 +184,18 @@ hr, .hr {
     line-height: 1.5;
 }
 
-/* Sidebar modules for boxing content */
+/* modules for boxing content */
 .module {
     height: relative;
+}
+.animated-module {
+    height: relative;
+    opacity: 0;
+    transition: opacity .3s .25s ease-out;
+    will-change: opacity;
+}
+.animated-module.is-visible {
+    opacity: 1;
 }
 .module-inset {
     margin-top: 10px;
@@ -303,6 +312,10 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    transition: transform .3s;
+}
+.project1:hover {
+    transform: scale(1.1);
 }
 .project2 {
     background-image: url("images/antsvsbees.png");
@@ -312,6 +325,10 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    transition: transform .3s;
+}
+.project2:hover {
+    transform: scale(1.1);
 }
 .project3 {
     background-image: url("images/website.jpg");
@@ -321,6 +338,10 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    transition: transform .3s;
+}
+.project3:hover {
+    transform: scale(1.1);
 }
 .project-text {
     background-color:rgba(0, 0, 0, 0.5);
@@ -343,7 +364,4 @@ ul {
     font-family: 'Open Sans', sans-serif;
     font-weight:bold;
     font-size: 30px;
-}
-.project-text-title:hover {
-    color: rgb(228, 228, 228);
 }
