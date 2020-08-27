@@ -16,7 +16,7 @@ p, .p, li, .li {
     font-size: 18px;
     margin-top: 0px;
     margin-bottom: 40px;
-    color: rgb(34, 34, 34);
+    color: rgb(0, 0, 0);
     line-height: 24px;
 }
 
@@ -294,6 +294,7 @@ p.resume-text, li.resume-text {
     margin-top: 5px;
     font-size: 16px;
     line-height: 20px;
+    color:black;
 }
 
 ul {
@@ -310,6 +311,17 @@ ul {
     text-indent: -5px;
   }
 
+.blue-subtitle {
+    margin-bottom: 5px;
+    font-weight: normal;
+    color:royalblue;
+    text-align:center;
+    font-family: "Helvetica", Times, serif;
+}
+a.blue-subtitle:hover {
+    color:rgb(110, 137, 218);
+}
+
 /*
  * Projects
  */
@@ -323,6 +335,7 @@ ul {
     background-size: cover;
     position: relative;
     transition: transform .3s;
+    margin-bottom: 3vh;
 }
 .project1:hover {
     transform: scale(1.1);
@@ -336,6 +349,7 @@ ul {
     background-size: cover;
     position: relative;
     transition: transform .3s;
+    margin-bottom: 3vh;
 }
 .project2:hover {
     transform: scale(1.1);
@@ -349,6 +363,7 @@ ul {
     background-size: cover;
     position: relative;
     transition: transform .3s;
+    margin-bottom: 3vh;
 }
 .project3:hover {
     transform: scale(1.1);
@@ -367,7 +382,7 @@ ul {
     font-size: 18px;
 }
 .project-inner-wrapper {
-    padding: 10px;
+    padding: 0px;
 }
 .project-text-title {
     color: white;
