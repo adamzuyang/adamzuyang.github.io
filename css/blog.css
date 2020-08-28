@@ -299,6 +299,9 @@ p.resume-text, li.resume-text {
     line-height: 20px;
     color:black;
 }
+h1.resume-text {
+    color: royalblue;
+}
 
 ul {
     margin: 0;
