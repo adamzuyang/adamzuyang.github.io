@@ -13,17 +13,20 @@ a:hover {
 
 p, .p, li, .li {
     font-family: 'Helvetica', Times;
-    font-size: 18px;
-    margin-top: 0px;
-    margin-bottom: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: rgb(0, 0, 0);
-    line-height: 24px;
+    line-height: 30px;
 }
 
+h1, .h1,
+h2, .h2,
+h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-    margin-top: 0;
+    margin-top: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     color: black
