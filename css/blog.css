@@ -388,7 +388,7 @@ a.blue-subtitle:hover {
     font-size: 18px;
 }
 .project-inner-wrapper {
-    padding: 0px;
+    padding: 1vh;
 }
 .project-text-title {
     color: white;
